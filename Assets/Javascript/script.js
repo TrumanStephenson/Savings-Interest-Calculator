@@ -13,3 +13,4 @@ function calculateinterest() {
     // Display result
     document.getElementById("result").innerHTML = "Total amount with interest: " + totalAmount;
 }
+
