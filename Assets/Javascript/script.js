@@ -1,7 +1,10 @@
-function calculateinterest() {
+const button = document.createElement("button");
+button.innerText = "Calculate Interest";
+
+function calculateInterest() {
     // Get user input
     var principal = parseFloat(document.getElementById("principal").value);
-    var timePeriod = parseFloat(document.getElementById("rate").value);
+    var interestRate = parseFloat(document.getElementById("rate").value);
     var timePeriod = parseFloat(document.getElementById("time").value);
 
     // Calculate interest 
